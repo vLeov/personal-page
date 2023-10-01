@@ -1,0 +1,142 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #07070e;
+    margin: 0;
+}
+
+.first {
+    background: #0b0b1b;
+    padding-bottom: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+ul a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 100px;
+
+}
+
+.header p {
+    padding-left: 15px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+#catimg {
+    border-radius: 50%;
+}
+
+.text {
+    color: white;
+
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about h1 {
+    color: white;
+}
+
+@media only screen and (max-width: 980px) {
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-right: 40px;
+    }
+
+    li {
+        display: inline;
+        float: left;
+    }
+
+    ul a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: cornflowerblue;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        margin-bottom: 100px;
+        font-size: 30pt;
+    }
+
+    .header p {
+        padding-left: 40px;
+    }
+
+    .info {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        font-size: 20pt;
+    }
+
+    #catimg {
+        border-radius: 50%;
+        width: 100%;
+    }
+
+    .text {
+        color: white;
+        font-size: 40px;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about h1 {
+        color: white;
+        font-size: 40px;
+    }
+}
+
+
